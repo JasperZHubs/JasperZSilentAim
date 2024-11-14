@@ -9,13 +9,13 @@ getgenv().phyx_target = {
        ["Offsets"] = { true, value = 1.1605 } -- // recommended; 0.16108 for 110+ ping. NOT an prediction. Create your own offset! ts is new and different from other locks!!
     },
     ["Aim Assist"] = {
-       ["Cam Enabled"] = true,
+       ["Cam Enabled"] = false,
        ["Partz"] = "UpperTorso",
        ["Use Smoothness"] = true,
        ["Smoothness Value"] = 0.165
     },
     ["GUIs"] = {
-       ["Save Position"] = true,
+       ["Save Position"] = false,
        ["Auto Air"] = true,
        ["Buy Items"] = true, -- // Only works on VFS games.
        ["Reset"] = true,
